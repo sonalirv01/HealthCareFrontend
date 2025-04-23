@@ -1,0 +1,21 @@
+.header {
+    background-color: purple;
+    height: 70px;
+    padding: 0 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 35px;
+    background-color: #ff7f7f;
+  }  
+
+  .blur-background > *:not(.MuiDialog-root) {
+    filter: blur(5px);
+  }
+  
+  .MuiBackdrop-root {
+    backdrop-filter: blur(5px);
+  }
